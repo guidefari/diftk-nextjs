@@ -33,7 +33,7 @@ function Projects({ projects }) {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-wrap mb-4 -mx-4 sm:-m-4">
 
-        <div id="fabhac-project-card" class="max-w-md py-4 px-8 bg-secondary shadow-lg rounded-lg my-20 mx-auto">
+        <div id="fabhac-project-card" className=""="max-w-md py-4 px-8 bg-secondary shadow-lg rounded-lg my-20 mx-auto">
             <div className="flex justify-center -mt-16 md:justify-end">
               <img className="object-cover w-20 h-20 border-2 rounded-full border-writing" src="/fabhac.png"/>
             </div>
@@ -47,7 +47,7 @@ function Projects({ projects }) {
           </div>
 
         {projects.map(project => (
-            <div key={project.name} class="max-w-md py-4 px-8 bg-secondary shadow-lg rounded-lg my-20 mx-auto">
+            <div key={project.name} className="max-w-md px-8 py-4 mx-auto my-20 rounded-lg shadow-lg bg-secondary">
             <div className="flex justify-center -mt-16 md:justify-end">
               <img className="object-cover w-20 h-20 border-2 rounded-full border-writing" src={project.icon.url}/>
             </div>
