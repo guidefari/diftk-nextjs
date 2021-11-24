@@ -8,9 +8,8 @@ const Help = () => {
   return (
     <section>
       <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
-        <div className="pb-5 border-b border-black">
-          <h1 className="text-3xl font-medium leading-6 text-neutral-600">
-            {" "}
+        <div className="flex justify-center mb-5">
+          <h1 className="max-w-sm text-2xl text-center border-b-4 border-highlight">
             How to Help #Kids2school
           </h1>
         </div>

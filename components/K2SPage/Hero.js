@@ -12,8 +12,8 @@ const K2SHero = () => {
               #Kids2school
             </div>
             <div className="mt-4 text-xl">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              To get started with sponsoring a child, reach out via email and
+              our team will be of assistance.
             </div>
             <div className="h-16 my-5">
               <button className="w-48 px-4 py-2 text-lg font-medium text-center bg-yellow-500 rounded shadow-md cursor-pointer text-secondary hover:bg-yellow-400">
@@ -36,9 +36,8 @@ const K2SHero = () => {
                     src="https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5cf8fb1f994fb7168d0d66fb_quote-intro.svg"
                   />{" "}
                   <p className="text-secondary">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam
+                    The proportion of children being turned away for non-payment
+                    of school fees is at a staggering 61%.
                   </p>
                 </div>
               </div>

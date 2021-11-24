@@ -9,8 +9,8 @@ const k2s = () => {
   return (
     <Layout>
       <Hero />
-      <Background />
       <Goals />
+      <Background />
       <Help />
     </Layout>
   )
