@@ -1,11 +1,17 @@
 import React from "react"
 import Layout from "../components/layout"
-import K2SHero from "../components/K2SHero"
+import Hero from "../components/K2SPage/Hero"
+import Background from "../components/K2SPage/Background"
+import Goals from "../components/K2SPage/Goals"
+import Help from "../components/K2SPage/Help"
 
 const k2s = () => {
   return (
     <Layout>
-      <K2SHero />
+      <Hero />
+      <Background />
+      <Goals />
+      <Help />
     </Layout>
   )
 }
