@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { Sun, Moon, Facebook, Twitter, Instagram } from "react-feather";
+import React, { useState, useEffect } from "react"
+import Link from "next/link"
+import { Sun, Moon, Facebook, Twitter, Instagram } from "react-feather"
 
 const NavLinks = () => {
   return (
@@ -8,44 +8,45 @@ const NavLinks = () => {
       {[
         { title: "Magazine", route: "/magazine" },
         { title: "Projects", route: "/projects" },
+        { title: "K2S", route: "/k2s" },
         { title: "About", route: "/about" },
-      ].map((navigationItem) => (
+      ].map(navigationItem => (
         <Link href={navigationItem.route} key={navigationItem.title}>
           <a className="mx-2 font-bold ">{navigationItem.title}</a>
         </Link>
       ))}
     </>
-  );
-};
+  )
+}
 
 function Header() {
   const onLoadTheme =
-    typeof localStorage !== "undefined" && localStorage.getItem("BLOG_THEME");
-  const [mounted, setMounted] = useState(false);
-  const [theme, setTheme] = useState(onLoadTheme);
+    typeof localStorage !== "undefined" && localStorage.getItem("BLOG_THEME")
+  const [mounted, setMounted] = useState(false)
+  const [theme, setTheme] = useState(onLoadTheme)
 
   const switchTheme = () => {
-    const setTo = theme === "dark" ? "light" : "dark";
-    setTheme(setTo);
-  };
+    const setTo = theme === "dark" ? "light" : "dark"
+    setTheme(setTo)
+  }
 
   useEffect(() => {
-    if (onLoadTheme) return;
+    if (onLoadTheme) return
 
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+      setTheme("dark")
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme", theme)
 
-    localStorage.setItem("BLOG_THEME", theme);
+    localStorage.setItem("BLOG_THEME", theme)
 
-    setMounted(true);
-  }, [theme]);
+    setMounted(true)
+  }, [theme])
 
-  if (!mounted) return <div />;
+  if (!mounted) return <div />
 
   return (
     <header className="">
@@ -103,7 +104,7 @@ function Header() {
         </span>
       </div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
