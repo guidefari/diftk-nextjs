@@ -101,6 +101,9 @@ body { font-family: 'Heebo', sans-serif; background-color: var(--bg-color); colo
     background-repeat: no-repeat
 }
 
+.help-card {
+  @apply flex flex-col mb-12 overflow-hidden transition duration-300 ease-in-out transform cursor-pointer blog-card hover:-translate-y-2;
+}
 /* misc end */
 
 @tailwind components;

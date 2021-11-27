@@ -6,9 +6,14 @@ const Background = () => {
       <div className="container flex flex-col items-center px-5 py-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="flex flex-col w-full max-w-3xl mx-auto prose text-left prose-blue">
           <div className="w-full mx-auto">
-            <h1 className="text-center border-b-4 border-highlight">
+            <div className="flex justify-center">
+              <h1 className="max-w-sm text-2xl text-center border-b-4 lg:text-5xl border-highlight">
+                #Kids2school Background
+              </h1>
+            </div>
+            {/* <h1 className="text-2xl text-center border-b-4 lg:text-5xl border-highlight">
               #Kids2school Background
-            </h1>
+            </h1> */}
             <h2>Our Findings</h2>
             <p>
               Our research into the plight of education opportunities in

@@ -16,9 +16,11 @@ const K2SHero = () => {
               our team will be of assistance.
             </div>
             <div className="h-16 my-5">
-              <button className="w-48 px-4 py-2 text-lg font-medium text-center bg-yellow-500 rounded shadow-md cursor-pointer text-secondary hover:bg-yellow-400">
-                Sponsor a child
-              </button>
+              <a href="mailto:k2s@doit4thekidz.org?subject=Sponsor a child">
+                <button className="w-48 px-4 py-2 text-lg font-medium text-center bg-yellow-500 rounded shadow-md cursor-pointer text-secondary hover:bg-yellow-400">
+                  Sponsor a child
+                </button>
+              </a>
             </div>
           </div>
           <div className="flex w-full -mt-5 md:justify-end md:w-1/2">

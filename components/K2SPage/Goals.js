@@ -4,7 +4,7 @@ const Goals = () => {
   return (
     <section>
       <div className="flex justify-center">
-        <h1 className="max-w-sm text-2xl text-center border-b-4 border-highlight">
+        <h1 className="max-w-sm text-2xl text-center border-b-4 lg:text-5xl border-highlight">
           3 Goals + Strategies
         </h1>
       </div>
