@@ -65,7 +65,7 @@ body { font-family: 'Heebo', sans-serif; background-color: var(--bg-color); colo
 .button-primary{
     background-color: var(--button-bg);
     color: var(--secondary-color);
-    @apply inline-flex items-center px-3 py-1 text-base rounded focus:outline-none hover:bg-yellow-600;
+    @apply inline-flex items-center px-3 py-1 text-base rounded focus:outline-none hover:bg-yellow-400;
 }
 .button-secondary{
     background-color: var(--secondary-color);
@@ -96,7 +96,14 @@ body { font-family: 'Heebo', sans-serif; background-color: var(--bg-color); colo
     @apply rounded;
   }
 
- 
+  .bg-dots{
+    background-image: url(https://assets-global.website-files.com/5b5a66e9f3166b36708705fa/5dea7a12bb83ab1f13040de5_cx-dots.svg);
+    background-repeat: no-repeat
+}
+
+.help-card {
+  @apply flex flex-col mb-12 overflow-hidden transition duration-300 ease-in-out transform cursor-pointer blog-card hover:-translate-y-2;
+}
 /* misc end */
 
 @tailwind components;
