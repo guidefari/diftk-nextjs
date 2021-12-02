@@ -1,9 +1,3 @@
-import React from "react"
-import Image from "next/image"
-import sponsor from "../../public/sponsor.png"
-import donate from "../../public/donate.png"
-import add from "../../public/add.png"
-
 const Help = () => {
   return (
     <section>
@@ -18,9 +12,9 @@ const Help = () => {
             <a href="mailto:k2s@doit4thekidz.org?subject=Sponsor a child">
               <div className="help-card">
                 <div className="flex-shrink-0">
-                  <Image
+                  <img
                     className="object-cover w-full h-48 rounded-lg"
-                    src={sponsor}
+                    src="/sponsor.png"
                     alt=""
                   />
                 </div>
@@ -50,9 +44,9 @@ const Help = () => {
             >
               <div className="help-card">
                 <div className="flex-shrink-0">
-                  <Image
+                  <img
                     className="object-cover w-full h-48 rounded-lg"
-                    src={donate}
+                    src="/donate.png"
                     alt=""
                   />
                 </div>
@@ -77,9 +71,9 @@ const Help = () => {
             <a href="mailto:k2s@doit4thekidz.org?subject=Additional Support">
               <div className="help-card">
                 <div className="flex-shrink-0">
-                  <Image
+                  <img
                     className="object-cover w-full h-48 rounded-lg"
-                    src={add}
+                    src="/add.png"
                     alt=""
                   />
                 </div>

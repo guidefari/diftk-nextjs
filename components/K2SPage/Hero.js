@@ -1,7 +1,3 @@
-import React from "react"
-import Image from "next/image"
-import heroImage from "../../public/k2s-hero.png"
-
 const K2SHero = () => {
   return (
     <div>
@@ -26,10 +22,10 @@ const K2SHero = () => {
           <div className="flex w-full -mt-5 md:justify-end md:w-1/2">
             <div className="bg-dots">
               <div className="z-10 flex flex-col max-w-md mt-6 ml-4 rounded-full shadow-2xl">
-                <Image
+                <img
                   alt="a few kids smiling at the camera"
                   className="rounded-t"
-                  src={heroImage}
+                  src="/k2s-hero.png"
                 />
                 <div className="p-10 text-2xl bg-writing ">
                   <img
